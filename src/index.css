@@ -126,6 +126,21 @@ background-color: #0B0B0B ;
   margin-left: 5px;
   
 }
+.child10{
+  width: 22rem;
+  height: 8rem;
+  border: 3px solid #4169E1;
+  box-shadow: 0 0 20px #4169E1, 0 0 40px #4169E1, 0 0 60px #4169E1;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+  margin-left: 5px;
+  
+}
+.child10:hover{
+  box-shadow: 0 0 30px #4169E1, 0 0 60px #4169E1, 0 0 90px #4169E1;
+
+}
+
 .child:hover{
   box-shadow: 0 0 30px #4169E1, 0 0 60px #4169E1, 0 0 90px #4169E1;
 
@@ -173,7 +188,7 @@ background-color: #0B0B0B ;
   
 }
 .header{
-  background-color:#0B0B0B ;
+  background-color:#0B0B0B;
 }
 
   .nav-links.active{
@@ -205,6 +220,9 @@ background-color: #0B0B0B ;
   margin-right: 0px;
   font-size: 20px;
 
+}
+.hi{
+   background-color:#0B0B0B;
 }
 .main1{
 flex-direction:column;

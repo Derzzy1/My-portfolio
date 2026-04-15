@@ -16,10 +16,10 @@ return (
           <Link to="/about" className="">
             About
           </Link>
-          <Link to="/Projects" className="">
+          <Link to="/Projects" className="hi">
             Projects
           </Link>
-          <Link to="/contacts" className="">
+          <Link to="/contacts" className="hi">
             Contacts
           </Link>
           </div>
