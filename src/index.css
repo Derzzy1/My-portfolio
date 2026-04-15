@@ -187,6 +187,13 @@ background-color: #0B0B0B ;
   15px;
   
 }
+.nav{
+  background-color:#0B0B0B;
+  position:sticky;
+  top:0;
+  width:100%;
+  z-index:1000;
+}
 .header{
   background-color:#0B0B0B;
 }
