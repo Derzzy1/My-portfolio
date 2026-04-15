@@ -82,14 +82,9 @@ background-color: #0B0B0B ;
   margin-left: 700px;
   top: -4px;
   transition: all 0.3s ease;
-  opacity:1;
-  transform: translateY(-10px);
 }
 
-.nav-links.active{
-  opacity:1;
-  transform: translateY(0);
-}
+
 
 .logo{
   color: #4169E1;
@@ -185,6 +180,8 @@ background-color: #0B0B0B ;
   .nav-links a{
   font-size:
   15px;
+  background-color:#0B0B0B;
+
   
 }
 .nav{
