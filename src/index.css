@@ -59,6 +59,8 @@ background-color: #0B0B0B ;
   justify-content: space-between;
   align-items: flex-end;
   padding: 20px;
+ background-color: #0B0B0B ;
+
 }
 .h{
   justify-self: center;
@@ -81,7 +83,8 @@ background-color: #0B0B0B ;
   gap: 25px;
   margin-left: 700px;
   top: -4px;
-  transition: all 0.3s ease;
+  background-color: #0B0B0B ;
+  
 }
 
 
