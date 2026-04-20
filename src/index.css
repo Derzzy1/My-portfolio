@@ -24,6 +24,7 @@ background-color: #0B0B0B ;
   margin-top: 50px;
   border-radius: 5px;
   width: 200px;
+  text-decoration:none;
 }
 .img{
   width: 10rem;
@@ -183,8 +184,7 @@ background-color: #0B0B0B ;
   .nav-links a{
   font-size:
   15px;
-  background-color:#0B0B0B;
-
+  
   
 }
 .nav{
@@ -194,13 +194,9 @@ background-color: #0B0B0B ;
   width:100%;
   z-index:1000;
 }
-.header{
-  background-color:#0B0B0B;
-}
 
-  .nav-links.active{
-    display:flex;
-  }
+
+  
 
   .hamburger{
     display:block;
@@ -211,13 +207,14 @@ background-color: #0B0B0B ;
   .mai{
     flex-direction: column;
     text-align:center;
+    font-size:;
 
   }
   .img1-wrapper{
     order:2;
   }
   .fs1{
-    width:20rem;
+    width:12rem;
     margin-left:10px;
     
   }
@@ -246,6 +243,14 @@ gap:20px;
 
 .img1{
   margin-left:10px;
+}
+.gt{
+  color: #0B0B0B ;
+}
+
+.n1{
+  font-size:2rem;
+  font: bold;
 }
 }
 
