@@ -61,9 +61,7 @@ background-color: #0B0B0B ;
   align-items: flex-end;
   padding: 20px;
  background-color: #0B0B0B ;
- 
-
-
+ position:relative;
 }
 .h{
   justify-self: center;
@@ -186,16 +184,24 @@ background-color: #0B0B0B ;
 
 @media (max-width:768px) {
   .nav-links {
-    top:60px;
-    right:0;
+    top:100%;
+    right:10px;
     display:none;
-    width:100%;
+    width:200px;
     text-align:center;
-    padding: 20px 0;
+    padding: 15px;
     margin-left:30px;
     gap:5px;
     position:absolute;
     flex-direction:column;
+    border-radius:10px;
+    opacity:0;
+    transform: translateY(-10px);
+    pointer-events:none;
+    transition:all 0.3s ease;
+    z-index:999;
+
+  
   }
   .nav-links a{
   font-size:
@@ -203,6 +209,8 @@ background-color: #0B0B0B ;
   }
   .nav-links.active{
     display:flex;
+    opacity:1;
+    transform: translateY(0);
     pointer-events:auto;
   }
 .nav{
