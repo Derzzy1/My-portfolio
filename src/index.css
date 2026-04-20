@@ -61,6 +61,8 @@ background-color: #0B0B0B ;
   align-items: flex-end;
   padding: 20px;
  background-color: #0B0B0B ;
+ 
+
 
 }
 .h{
@@ -85,9 +87,16 @@ background-color: #0B0B0B ;
   margin-left: 700px;
   top: -4px;
   background-color: #0B0B0B ;
+  transition:all 0.3 ease;
+  opacity:0;
+  transform: translateY(-10px);
   
 }
+.nav-links.active{
+   opacity:1;
+  transform: translateY(0);
 
+}
 
 
 .logo{
@@ -114,6 +123,11 @@ background-color: #0B0B0B ;
 }
 .hamburger{
   display:none;
+  cursor:pointer;
+  color:white;
+}
+.hamburger:hover{
+  color:#4169E1;;
 }
 .child{
   width: 20rem;
@@ -174,19 +188,23 @@ background-color: #0B0B0B ;
   .nav-links {
     top:60px;
     right:0;
-    display:flex;
+    display:none;
     width:100%;
     text-align:center;
     padding: 20px 0;
     margin-left:30px;
     gap:5px;
+    position:absolute;
+    flex-direction:column;
   }
   .nav-links a{
   font-size:
   15px;
-  
-  
-}
+  }
+  .nav-links.active{
+    display:flex;
+    pointer-events:auto;
+  }
 .nav{
   background-color:#0B0B0B;
   position:sticky;
@@ -194,11 +212,7 @@ background-color: #0B0B0B ;
   width:100%;
   z-index:1000;
 }
-
-
-  
-
-  .hamburger{
+ .hamburger{
     display:block;
   }
   .hamburger:hover{
@@ -241,8 +255,9 @@ gap:20px;
 }
 
 .img1{
-  margin-left:10px;
-  size:50%;
+  margin-left:0px;
+   width:150px ;
+  height: 150px;
 
 }
 .gt{
