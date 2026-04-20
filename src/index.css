@@ -214,13 +214,12 @@ background-color: #0B0B0B ;
     order:2;
   }
   .fs1{
-    width:12rem;
+    width:20rem;
     margin-left:10px;
     
   }
   .h{
-  justify-self: center;
-  margin-left: 10px;
+   margin-left: 10px;
   margin-right: 0px;
   font-size: 20px;
 
@@ -243,13 +242,15 @@ gap:20px;
 
 .img1{
   margin-left:10px;
+  size:50%;
+
 }
 .gt{
   color: #0B0B0B ;
 }
 
 .n1{
-  font-size:2rem;
+  font-size:4rem;
   font: bold;
 }
 }
