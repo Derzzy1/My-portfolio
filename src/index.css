@@ -228,7 +228,7 @@ background-color: #0B0B0B ;
   color:royalblue;
   }
   .free{
-     margin-left:1;
+     margin-left:1px;
   }
   .mai{
     flex-direction: column;
