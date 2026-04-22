@@ -55,6 +55,7 @@ background-color: #0B0B0B ;
 .n1{
   font-size:5rem;
   font: bold;
+  margin-left: 0px;
 }
 .nav{
   display: flex;
