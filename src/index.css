@@ -222,10 +222,13 @@ background-color: #0B0B0B ;
 }
  .hamburger{
     display:block;
-    margin-right:50px;
+    margin-right:5px;
   }
   .hamburger:hover{
   color:royalblue;
+  }
+  .free{
+     margin-left:0px;
   }
   .mai{
     flex-direction: column;
