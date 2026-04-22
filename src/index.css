@@ -230,7 +230,6 @@ background-color: #0B0B0B ;
   .mai{
     flex-direction: column;
     text-align:center;
-    font-size:;
 
   }
   .img1-wrapper{
@@ -274,11 +273,11 @@ gap:20px;
 }
 
 .n1{
-  font-size:4rem;
+  font-size:3rem;
   font: bold;
 }
 .header{
-width: 80%;
+width: 90%;
 }
 }
 
