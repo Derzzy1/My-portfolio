@@ -12,7 +12,11 @@ const [isOpen, setIsOpen] = useState(false);
       <div className=" nav">
 
         <img src="/images/lg1.jpeg" alt="" className="img"/>
-        <div className={`nav-links ${isOpen ? "active" : ""}`}>
+        <div className="hamburger">
+          onClick = {() => setIsOpen(!isOpen)}
+             { isOpen ? <X size={28}/> : <Menu size={28} /> }
+          </div>
+        < div className={`nav-links ${isOpen ? "active" : ""}`}>
           <Link to="/" className="">
             Home
           </Link>
@@ -26,10 +30,7 @@ const [isOpen, setIsOpen] = useState(false);
             Contacts
           </Link>
           </div>
-          <div className="hamburger"
-          onClick = {() => setIsOpen(!isOpen)}>
-             { isOpen ? <X size={28}/> : <Menu size={28} /> }
-          </div>
+          
         </div>
     </nav>
   );
