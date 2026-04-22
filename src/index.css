@@ -53,9 +53,9 @@ background-color: #0B0B0B ;
   width: 43rem;
 }
 .n1{
-  font-size:5rem;
+  font-size:4rem;
   font: bold;
-  margin-left: 0px;
+  margin-left: 1px;
 }
 .nav{
   display: flex;
