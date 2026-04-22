@@ -228,7 +228,7 @@ background-color: #0B0B0B ;
   color:royalblue;
   }
   .free{
-     margin-left:0px;
+     margin-left:1;
   }
   .mai{
     flex-direction: column;
@@ -276,7 +276,7 @@ gap:20px;
 }
 
 .n1{
-  font-size:3rem;
+  font-size:3.7rem;
   font: bold;
 }
 .header{
