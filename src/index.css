@@ -12,6 +12,7 @@ body{
 background-color: #0B0B0B ;
   position: sticky;
   top: 0;
+  width:100%;
 }
 .mai{
   display: flex;
@@ -243,6 +244,9 @@ background-color: #0B0B0B ;
     margin-left:10px;
     
   }
+  .fs1 h1{
+    font-size:2rem ;
+  }
   .h{
    margin-left: 10px;
   margin-right: 0px;
@@ -256,7 +260,7 @@ background-color: #0B0B0B ;
 flex-direction:column;
 justify-items:center;
 gap:20px;
-margin-left:80px;
+margin-left:5px;
 }
 .main{
 flex-direction:column;
