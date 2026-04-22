@@ -228,6 +228,7 @@ background-color: #0B0B0B ;
   }
   .mai{
     flex-direction: column;
+    margin-left: 1px;
    
 
   }
