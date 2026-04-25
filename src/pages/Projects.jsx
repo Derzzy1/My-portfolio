@@ -7,7 +7,7 @@ const Projects = () => {
         <img src="/images/Grade.png" alt="" />
         <h1>A JS function that grades them according to their scores</h1>
          <button>
-        <a href="grade-y2u1.vercel.app" className="gt">View Projects </a>
+        <a href="https://grade-y2u1.vercel.app" className="gt">View Projects </a>
        </button>
       </div>
       <div className="bx"></div>
@@ -15,7 +15,7 @@ const Projects = () => {
         <img src="/images/Meta.png" alt="" />
         <h1> Cloning Meta product and welfare page including the Header and Footer</h1>
              <button>
-        <a href="meta-brown-chi.vercel.app" className="gt">View Projects </a>
+        <a href="https://meta-brown-chi.vercel.app" className="gt">View Projects </a>
        </button>
       </div>
 
@@ -24,7 +24,7 @@ const Projects = () => {
         <img src="/images/port.png" alt="" />
         <h1>My personal portfolio</h1>
             <button>
-        <a href="derzzy.vercel.app" className="gt">View Projects </a>
+        <a href="https://derzzy.vercel.app" className="gt">View Projects </a>
        </button>
       </div>
 
