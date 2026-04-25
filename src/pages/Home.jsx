@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -13,12 +14,12 @@ const Home = () => {
         <li>Currently building projects and leveling up my frontend skills.</li>
         <li>Based in Nigeria, open to internships and collaborations.</li>
        </ul>
-       <button>
-        <a href="https://derzzy.vercel.app/Projects "className="gt">View Projects </a>
-       </button>
-       <button>
-        <a href="https://derzzy.vercel.app/contacts"className="gt">Contact me</a>
-       </button>
+<Link to="/Projects" className="gt">
+            View projects
+          </Link>
+          <Link to="/contacts" className="gt">
+            Contact me
+          </Link>
      </div>
      <div className="fs2">
       <img src="/images/Snapchat-2021848168.jpg" alt="" className="img1"  />
