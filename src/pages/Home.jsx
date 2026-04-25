@@ -14,10 +14,10 @@ const Home = () => {
         <li>Based in Nigeria, open to internships and collaborations.</li>
        </ul>
        <button>
-        <a href="/projects" className="gt">View Projects </a>
+        <a href="https://derzzy.vercel.app/projects "className="gt">View Projects </a>
        </button>
        <button>
-        <a href="/contacts"className="gt">Contact me</a>
+        <a href="https://derzzy.vercel.app/contacts"className="gt">Contact me</a>
        </button>
      </div>
      <div className="fs2">
